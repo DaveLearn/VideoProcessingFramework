@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.21)
-
+set(CMAKE_CUDA_ARCHITECTURES 89)
 project(Video_Processing_Framework)
 
 option(TRACK_TOKEN_ALLOCATIONS "Debug memory allocations within VPF" FALSE )
